@@ -4,9 +4,3 @@
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/42/corne.h"
 #include "../miryoku/miryoku.dtsi"
-
-// https://zmk.dev/docs/config/displays#kconfig
-CONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y
-
-// https://zmk.dev/docs/config/power#idlesleep
-CONFIG_ZMK_SLEEP=y
